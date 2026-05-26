@@ -145,7 +145,7 @@ async function runTokenTransfer(legion, userKeypair, recipient, sendToken, feeTo
 async function main() {
   console.log("\n╔═════════════════════════════════════════════════════╗");
   console.log("║           Legion SDK  —  Terminal Test              ║");
-  console.log("║           github.com/MELcodes99/LEGIONSDK-V2        ║");
+  console.log("║      https://github.com/MELcodes99/legionSDK        ║");
   console.log("╚═════════════════════════════════════════════════════╝\n");
 
   // ── Network ────────────────────────────────────────────────
