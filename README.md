@@ -31,8 +31,8 @@ Everything is **atomic**. If the fee transfer fails, the whole transaction fails
 ## Installation
 
 ```bash
-git clone https://github.com/MELcodes99/LEGIONSDK-V2.git
-cd LEGIONSDK-V2
+git clone https://github.com/MELcodes99/legionSDK.git
+cd legionSDK
 npm install
 ```
 
@@ -74,7 +74,7 @@ It looks like a long string of random characters, for example: `4xKpN7bvHj2...`
 
 ### Step 2 — Create the wallet loader file
 
-Inside your `LEGIONSDK-V2` folder, create a new file called `load-wallet.js`.
+Inside your `legionSDK` folder, create a new file called `load-wallet.js`.
 
 Open it in your text editor and paste this code:
 
@@ -460,7 +460,3 @@ const {
 - Consider rate limiting your relay API endpoints to prevent abuse.
 
 ---
-
-## License
-
-MIT
