@@ -1,0 +1,20 @@
+{
+  "name": "legion-sdk",
+  "version": "2.0.0",
+  "description": "Gas abstraction SDK for Solana. Your backend wallet pays SOL gas. Users pay fees in any SPL token, or for free.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["solana", "gas-abstraction", "relayer", "spl-token", "web3"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "@solana/spl-token": "^0.4.9",
+    "bs58": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
